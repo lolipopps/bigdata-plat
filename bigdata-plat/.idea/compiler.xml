@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bigdata-query" />
+        <module name="bigdata-open" />
+        <module name="bigdata-your" />
+        <module name="bigdata-generator" />
+        <module name="bigdata-core" />
+        <module name="bigdata-activity" />
+        <module name="bigdata-social" />
+        <module name="bigdata-admin" />
+        <module name="bigdata-file" />
+        <module name="bigdata-quartz" />
+        <module name="bigdata-app" />
+        <module name="bigdata-base" />
+        <module name="bigdata-autochat" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -21,6 +21,7 @@
         <module>bigdata-your</module>
         <module>bigdata-app</module>
         <module>bigdata-autochat</module>
+        <module>bigdata-query</module>
     </modules>
 
     <dependencies>
