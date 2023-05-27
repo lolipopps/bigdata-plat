@@ -41,7 +41,7 @@ public class SystemLogAspect {
 
     private static final ThreadLocal<Date> THREAD_LOCAL_BEGIN_TIME = new NamedThreadLocal<>("ThreadLocal beginTime");
 
-    @Value("${Bigdata.logRecord.es:false}")
+    @Value("${bigdata.logRecord.es:false}")
     private Boolean esRecord;
 
     @Autowired

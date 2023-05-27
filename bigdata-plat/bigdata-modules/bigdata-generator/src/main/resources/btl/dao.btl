@@ -1,6 +1,6 @@
  package ${entity.daoPackage};
 
-import base.com.bigdata.core.BigdataBaseDao;
+import com.bigdata.core.base.BigdataBaseDao;
 import ${entity.entityPackage}.${entity.className};
 
 import java.util.List;

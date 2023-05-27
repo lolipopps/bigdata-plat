@@ -1,6 +1,6 @@
 package ${entity.entityPackage};
 
-import com.bigdata.base.BigdataBaseEntity;
+import com.bigdata.base.core.BigdataBaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiModel;

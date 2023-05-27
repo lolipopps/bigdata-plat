@@ -34,7 +34,7 @@ import java.io.UnsupportedEncodingException;
 @Transactional
 public class LogController {
 
-    @Value("${Bigdata.logRecord.es:false}")
+    @Value("${bigdata.logRecord.es:false}")
     private Boolean esRecord;
 
     @Autowired

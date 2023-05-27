@@ -320,7 +320,7 @@ swagger:
   title: Bigdata API接口文档
   description: Bigdata Api Documentation
   version: 1.0.0
-  termsOfServiceUrl: http://Bigdata.exrick.cn
+  termsOfServiceUrl: http://bigdata.exrick.cn
   contact:
     name: Bigdata
     url: http://exrick.cn

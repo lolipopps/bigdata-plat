@@ -40,19 +40,19 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class GithubController {
 
-    @Value("${Bigdata.social.github.clientId}")
+    @Value("${bigdata.social.github.clientId}")
     private String clientId;
 
-    @Value("${Bigdata.social.github.clientSecret}")
+    @Value("${bigdata.social.github.clientSecret}")
     private String clientSecret;
 
-    @Value("${Bigdata.social.github.callbackUrl}")
+    @Value("${bigdata.social.github.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.GITHUB_STATE;

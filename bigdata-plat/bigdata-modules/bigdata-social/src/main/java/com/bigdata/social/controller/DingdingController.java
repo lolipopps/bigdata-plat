@@ -43,19 +43,19 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class DingdingController {
 
-    @Value("${Bigdata.social.dingding.appId}")
+    @Value("${bigdata.social.dingding.appId}")
     private String appId;
 
-    @Value("${Bigdata.social.dingding.appSecret}")
+    @Value("${bigdata.social.dingding.appSecret}")
     private String appSecret;
 
-    @Value("${Bigdata.social.dingding.callbackUrl}")
+    @Value("${bigdata.social.dingding.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.DINGDING_STATE;

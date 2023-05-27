@@ -3,3 +3,5 @@
 /workspace.xml
 ./.idea
 ./bigdata-plat/.idea
+./bigdata-front/node_modules
+./bigdata-plat/*/target/*

@@ -40,19 +40,19 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class QQController {
 
-    @Value("${Bigdata.social.qq.appId}")
+    @Value("${bigdata.social.qq.appId}")
     private String appId;
 
-    @Value("${Bigdata.social.qq.appKey}")
+    @Value("${bigdata.social.qq.appKey}")
     private String appKey;
 
-    @Value("${Bigdata.social.qq.callbackUrl}")
+    @Value("${bigdata.social.qq.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.QQ_STATE;

@@ -60,7 +60,7 @@
         </dependency>
         <dependency>
             <groupId>com.bigdata</groupId>
-            <artifactId>bigdata-your</artifactId>
+            <artifactId>bigdata-query</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

@@ -42,7 +42,7 @@ import java.io.InputStream;
 @Transactional
 public class UploadController {
 
-    @Value("${Bigdata.maxUploadFile}")
+    @Value("${bigdata.maxUploadFile}")
     private Long maxUploadFile;
 
     @Autowired

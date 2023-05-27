@@ -1,11 +1,11 @@
 package ${entity.controllerPackage};
 
-import base.com.bigdata.core.BigdataBaseController;
-import utils.common.com.bigdata.core.PageUtil;
-import utils.common.com.bigdata.core.ResultUtil;
-import vo.common.com.bigdata.core.PageVo;
-import vo.common.com.bigdata.core.Result;
-import vo.common.com.bigdata.core.SearchVo;
+import com.bigdata.core.base.BigdataBaseController;
+import com.bigdata.core.common.utils.PageUtil;
+import com.bigdata.core.common.utils.ResultUtil;
+import com.bigdata.core.common.vo.PageVo;
+import com.bigdata.core.common.vo.Result;
+import com.bigdata.core.common.vo.SearchVo;
 import ${entity.entityPackage}.${entity.className};
 import ${entity.servicePackage}.${entity.className}Service;
 import io.swagger.annotations.Api;

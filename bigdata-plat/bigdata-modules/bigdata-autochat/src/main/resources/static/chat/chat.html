@@ -36,7 +36,7 @@
     function init() {
         if (getVariable("accessToken") == false) {
             alert("您还未登录");
-            window.location.href = "http://Bigdata.exrick.cn";
+            window.location.href = "http://bigdata.exrick.cn";
         }
         axios.get("/bigdata/setting/autoChat?accessToken=" + getVariable("accessToken"))
             .then(res => {

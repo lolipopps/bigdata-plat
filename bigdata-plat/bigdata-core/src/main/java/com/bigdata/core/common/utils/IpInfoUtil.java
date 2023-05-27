@@ -22,7 +22,7 @@ import java.net.UnknownHostException;
 @Component
 public class IpInfoUtil {
 
-    @Value("${Bigdata.qqlbs.key}")
+    @Value("${bigdata.qqlbs.key}")
     private String key;
 
     @Autowired

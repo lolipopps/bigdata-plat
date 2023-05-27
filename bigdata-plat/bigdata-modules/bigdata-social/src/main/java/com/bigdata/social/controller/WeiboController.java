@@ -41,19 +41,19 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class WeiboController {
 
-    @Value("${Bigdata.social.weibo.appKey}")
+    @Value("${bigdata.social.weibo.appKey}")
     private String appKey;
 
-    @Value("${Bigdata.social.weibo.appSecret}")
+    @Value("${bigdata.social.weibo.appSecret}")
     private String appSecret;
 
-    @Value("${Bigdata.social.weibo.callbackUrl}")
+    @Value("${bigdata.social.weibo.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.WEIBO_STATE;

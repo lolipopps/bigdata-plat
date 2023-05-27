@@ -18,7 +18,6 @@
         <module>bigdata-file</module>
         <module>bigdata-quartz</module>
         <module>bigdata-open</module>
-        <module>bigdata-your</module>
         <module>bigdata-app</module>
         <module>bigdata-autochat</module>
         <module>bigdata-query</module>

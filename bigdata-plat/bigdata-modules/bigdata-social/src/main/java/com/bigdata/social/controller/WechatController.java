@@ -42,19 +42,19 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class WechatController {
 
-    @Value("${Bigdata.social.wechat.appId}")
+    @Value("${bigdata.social.wechat.appId}")
     private String appId;
 
-    @Value("${Bigdata.social.wechat.appSecret}")
+    @Value("${bigdata.social.wechat.appSecret}")
     private String appSecret;
 
-    @Value("${Bigdata.social.wechat.callbackUrl}")
+    @Value("${bigdata.social.wechat.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.WECHAT_STATE;

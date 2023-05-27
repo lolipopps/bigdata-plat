@@ -1,9 +1,9 @@
 package ${entity.controllerPackage};
 
-import utils.common.com.bigdata.core.PageUtil;
-import utils.common.com.bigdata.core.ResultUtil;
-import vo.common.com.bigdata.core.PageVo;
-import vo.common.com.bigdata.core.Result;
+import com.bigdata.core.common.utils.PageUtil;
+import common.com.bigdata.core.common.utils.ResultUtil;
+import com.bigdata.core.common.vo.PageVo;
+import com.bigdata.core.common.vo.Result;
 import ${entity.entityPackage}.${entity.className};
 import ${entity.servicePackage}.I${entity.className}Service;
 import cn.hutool.core.util.StrUtil;

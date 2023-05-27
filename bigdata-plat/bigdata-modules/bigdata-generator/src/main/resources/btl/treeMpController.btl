@@ -1,10 +1,10 @@
 package ${entity.controllerPackage};
 
-import constant.common.com.bigdata.core.CommonConstant;
-import redis.common.com.bigdata.core.RedisTemplateHelper;
-import utils.common.com.bigdata.core.CommonUtil;
-import utils.common.com.bigdata.core.ResultUtil;
-import vo.common.com.bigdata.core.Result;
+import com.bigdata.core.common.constant.CommonConstant;
+import com.bigdata.core.common.redis.RedisTemplateHelper;
+import com.bigdata.core.common.utils.CommonUtil;
+import com.bigdata.core.ResultUtil;
+import com.bigdata.core.common.vo.Result;
 import ${entity.entityPackage}.${entity.className};
 import ${entity.servicePackage}.I${entity.className}Service;
 import cn.hutool.core.util.StrUtil;

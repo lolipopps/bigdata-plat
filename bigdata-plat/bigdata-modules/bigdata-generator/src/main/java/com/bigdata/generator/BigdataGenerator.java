@@ -33,19 +33,19 @@ public class BigdataGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "Student";
+    private static final String CLASS_NAME = "DataSource";
 
     /**
      * 类说明描述
      * 建议仅需修改
      */
-    private static final String DESCRIPTION = "测试";
+    private static final String DESCRIPTION = "生成代码";
 
     /**
      * 作者名
      * 建议仅需修改
      */
-    private static final String AUTHOR = "Bigdata";
+    private static final String AUTHOR = "huyt";
 
     /**
      * 是否生成树形结构相关接口
@@ -63,7 +63,7 @@ public class BigdataGenerator {
      * 数据库表名前缀
      * 下方请根据需要修改
      */
-    private static final String TABLE_PRE = "t_";
+    private static final String TABLE_PRE = "t_data_source";
 
     /**
      * 主键类型
@@ -74,13 +74,13 @@ public class BigdataGenerator {
      * 生成模块路径
      * (文件自动生成至该模块下)
      */
-    private static final String MODULE = "/bigdata-modules/bigdata-your";
+    private static final String MODULE = "/bigdata-modules/bigdata-query";
 
     /**
      * 模块包路径
      * （下方包路径拼接使用）
      */
-    private static final String MODULE_PACKAGE = "your";
+    private static final String MODULE_PACKAGE = "query";
 
     /**
      * 实体类对应包

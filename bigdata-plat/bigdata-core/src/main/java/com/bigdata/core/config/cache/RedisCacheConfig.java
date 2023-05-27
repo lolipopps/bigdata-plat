@@ -28,7 +28,7 @@ import java.time.Duration;
 @Configuration
 public class RedisCacheConfig extends CachingConfigurerSupport {
 
-    @Value("${Bigdata.cache.timeToLive:-1}")
+    @Value("${bigdata.cache.timeToLive:-1}")
     private Duration timeToLive;
 
     /**

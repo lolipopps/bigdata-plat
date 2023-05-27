@@ -1,13 +1,13 @@
 package ${entity.servicePackage};
 
-import base.com.bigdata.core.BigdataBaseService;
+import com.bigdata.core.base.BigdataBaseService;
 import ${entity.entityPackage}.${entity.className};
 <%
 if(!entity.isTree){
 %>
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import vo.common.com.bigdata.core.SearchVo;
+import com.bigdata.core.common.vo.SearchVo;
 <%
 }
 %>

@@ -41,22 +41,22 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class WorkWechatController {
 
-    @Value("${Bigdata.social.workwechat.appId}")
+    @Value("${bigdata.social.workwechat.appId}")
     private String appId;
 
-    @Value("${Bigdata.social.workwechat.agentId}")
+    @Value("${bigdata.social.workwechat.agentId}")
     private String agentId;
 
-    @Value("${Bigdata.social.workwechat.appSecret}")
+    @Value("${bigdata.social.workwechat.appSecret}")
     private String appSecret;
 
-    @Value("${Bigdata.social.workwechat.callbackUrl}")
+    @Value("${bigdata.social.workwechat.callbackUrl}")
     private String callbackUrl;
 
-    @Value("${Bigdata.social.callbackFeUrl}")
+    @Value("${bigdata.social.callbackFeUrl}")
     private String callbackFeUrl;
 
-    @Value("${Bigdata.social.callbackFeRelateUrl}")
+    @Value("${bigdata.social.callbackFeRelateUrl}")
     private String callbackFeRelateUrl;
 
     private static final String STATE = SecurityConstant.WORKWECHAT_STATE;
