@@ -61,7 +61,7 @@ public class PermissionController {
     private SecurityUtil securityUtil;
 
     @Autowired
-    private MySecurityMetadataSource mySecurityMetadataSource;
+    private MySecurityMetadataSource mySecurityMetaDataSource;
 
     @RequestMapping(value = "/getMenuList", method = RequestMethod.GET)
     @ApiOperation(value = "获取用户页面菜单数据")
@@ -175,7 +175,7 @@ public class PermissionController {
         }
         Permission u = permissionService.save(permission);
         // 重新加载权限
-        mySecurityMetadataSource.loadResourceDefine();
+        mySecurityMetaDataSource.loadResourceDefine();
         // 手动删除缓存
         redisTemplate.deleteByPattern("permission:*");
         return new ResultUtil<Permission>().setData(u);
@@ -212,7 +212,7 @@ public class PermissionController {
             }
         }
         // 重新加载权限
-        mySecurityMetadataSource.loadResourceDefine();
+        mySecurityMetaDataSource.loadResourceDefine();
         // 手动批量删除缓存
         redisTemplate.deleteByPattern("user:*");
         redisTemplate.deleteByPattern("permission:*");
@@ -228,7 +228,7 @@ public class PermissionController {
             deleteRecursion(id, ids);
         }
         // 重新加载权限
-        mySecurityMetadataSource.loadResourceDefine();
+        mySecurityMetaDataSource.loadResourceDefine();
         // 手动删除缓存
         redisTemplate.deleteByPattern("permission:*");
         return ResultUtil.success("批量通过id删除数据成功");

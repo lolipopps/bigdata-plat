@@ -13,12 +13,14 @@
         <module name="bigdata-core" />
         <module name="bigdata-activity" />
         <module name="bigdata-social" />
+        <module name="bigdata-visual" />
         <module name="bigdata-admin" />
         <module name="bigdata-file" />
         <module name="bigdata-quartz" />
         <module name="bigdata-app" />
         <module name="bigdata-base" />
         <module name="bigdata-autochat" />
+        <module name="bigdata-connect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

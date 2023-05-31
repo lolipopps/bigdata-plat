@@ -1815,7 +1815,7 @@ ORYX.CONFIG.ORYX_NEW_URL =					"/new";
 ORYX.CONFIG.BPMN_LAYOUTER =					ORYX.CONFIG.ROOT_PATH + "bpmnlayouter";
 
 ORYX.CONFIG.EXPRESSION_METADATA_URL = 			ORYX.CONFIG.SERVER_HANDLER_ROOT + "/expression-metadata";
-ORYX.CONFIG.DATASOURCE_METADATA_URL = 			ORYX.CONFIG.SERVER_HANDLER_ROOT + "/datasource-metadata";/*
+ORYX.CONFIG.DataSource_METADATA_URL = 			ORYX.CONFIG.SERVER_HANDLER_ROOT + "/DataSource-metadata";/*
  * Copyright 2005-2014 Alfresco Software, Ltd. All rights reserved.
  * License rights for this program may be obtained from Alfresco Software, Ltd.
  * pursuant to a written agreement and any use of this program without such an
@@ -1926,8 +1926,8 @@ ORYX.CONFIG.TYPE_LISTENER =				"listener";
 ORYX.CONFIG.TYPE_EPC_FREQ = 			"epcfrequency";
 ORYX.CONFIG.TYPE_GLOSSARY_LINK =		"glossarylink";
 ORYX.CONFIG.TYPE_EXPRESSION = 			"expression";
-ORYX.CONFIG.TYPE_DATASOURCE = 			"datasource";
-ORYX.CONFIG.TYPE_DATASOURCE_MINIMAL =	"datasource-minimal";
+ORYX.CONFIG.TYPE_DataSource = 			"DataSource";
+ORYX.CONFIG.TYPE_DataSource_MINIMAL =	"DataSource-minimal";
 ORYX.CONFIG.TYPE_VALIDATORS =			"validators";
 
 	
@@ -13041,7 +13041,7 @@ ORYX.Core.Shape = {
 												label.text(prop);
 											}
 											break;
-										case ORYX.CONFIG.TYPE_DATASOURCE:
+										case ORYX.CONFIG.TYPE_DataSource:
 											var label = this._labels[refId];
 											if (label) {
 												label.text(prop);
@@ -18628,7 +18628,7 @@ ORYX.Plugins.RenameShapes = Clazz.extend({
 					&&	item.directlyEditable()); 
 		});
 		// from these, get all properties where write access are and the type is String or Expression
-		props = props.findAll(function(item){ return !item.readonly() &&  (item.type() == ORYX.CONFIG.TYPE_STRING || item.type() == ORYX.CONFIG.TYPE_EXPRESSION || item.type() == ORYX.CONFIG.TYPE_DATASOURCE); });
+		props = props.findAll(function(item){ return !item.readonly() &&  (item.type() == ORYX.CONFIG.TYPE_STRING || item.type() == ORYX.CONFIG.TYPE_EXPRESSION || item.type() == ORYX.CONFIG.TYPE_DataSource); });
 		
 		// Get all ref ids
 		var allRefToViews	= props.collect(function(prop){ return prop.refToView(); }).flatten().compact();

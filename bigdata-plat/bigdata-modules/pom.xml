@@ -21,8 +21,9 @@
         <module>bigdata-app</module>
         <module>bigdata-autochat</module>
         <module>bigdata-query</module>
+        <module>bigdata-connect</module>
+        <module>bigdata-visual</module>
     </modules>
-
     <dependencies>
         <dependency>
             <groupId>com.bigdata</groupId>

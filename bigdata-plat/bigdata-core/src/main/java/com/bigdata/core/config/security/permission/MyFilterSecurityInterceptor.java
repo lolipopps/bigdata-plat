@@ -22,7 +22,7 @@ import java.io.IOException;
 public class MyFilterSecurityInterceptor extends AbstractSecurityInterceptor implements Filter {
 
     @Autowired
-    private FilterInvocationSecurityMetadataSource securityMetadataSource;
+    private FilterInvocationSecurityMetadataSource securityMetaDataSource;
 
     @Autowired
     public void setMyAccessDecisionManager(MyAccessDecisionManager myAccessDecisionManager) {
@@ -61,8 +61,9 @@ public class MyFilterSecurityInterceptor extends AbstractSecurityInterceptor imp
         return FilterInvocation.class;
     }
 
+
     @Override
     public SecurityMetadataSource obtainSecurityMetadataSource() {
-        return this.securityMetadataSource;
+        return this.securityMetaDataSource;
     }
 }

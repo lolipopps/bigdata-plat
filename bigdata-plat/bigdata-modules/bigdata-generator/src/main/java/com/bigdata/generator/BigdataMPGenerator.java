@@ -33,13 +33,13 @@ public class BigdataMPGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "Student";
+    private static final String CLASS_NAME = "DataDriver";
 
     /**
      * 类说明描述
      * 建议仅需修改
      */
-    private static final String DESCRIPTION = "测试";
+    private static final String DESCRIPTION = "数据驱动";
 
     /**
      * 作者名
@@ -68,13 +68,13 @@ public class BigdataMPGenerator {
      * 生成模块路径
      * (文件自动生成至该模块下)
      */
-    private static final String MODULE = "/bigdata-modules/bigdata-your";
+    private static final String MODULE = "/bigdata-modules/bigdata-connect";
 
     /**
      * 模块包路径
      * （下方包路径拼接使用）
      */
-    private static final String MODULE_PACKAGE = "your";
+    private static final String MODULE_PACKAGE = "connect";
 
     /**
      * 实体类对应包
